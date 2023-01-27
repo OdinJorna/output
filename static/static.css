@@ -985,7 +985,7 @@ a.tc-tiddlylink:hover {
 		width: 770px;
 		padding: 42px 42px 42px 42px;
 	}.tc-story-river.tc-static-story-river {
-		margin-right: 0;
+		margin-right: 40%;
 		padding-right: 42px;
 	}}@media print {body.tc-body {
 		background-color: transparent;
@@ -5276,7 +5276,7 @@ button  {
 	color: #3F3B3B;
 	border-radius: 8px; 
 }/* centralises the tiddler and prevents tiddlers from getting too wide  */div.tc-tiddler-frame { 
-	margin-left: auto; 
+
 	margin-right: auto; 
 	width: 90%;
 	max-width: 800px;
