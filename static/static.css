@@ -982,7 +982,7 @@ a.tc-tiddlylink:hover {
 		width: 770px;
 		padding: 42px 42px 42px 42px;
 	}.tc-story-river.tc-static-story-river {
-		margin-right: 0;
+		margin-right: 600px;
 		padding-right: 42px;
 	}}@media print {body.tc-body {
 		background-color: transparent;
