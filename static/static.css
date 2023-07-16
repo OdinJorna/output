@@ -5829,7 +5829,7 @@ div.title-gradient-2 {margin-top: 4px; margin-bottom: 4px;  height: 3px;backgrou
     display: block;
     margin: auto;
     height: 300px;
-    mix-blend-mode: multiply;
+    width: auto;
 }
 
 .property-line h4 {
