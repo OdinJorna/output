@@ -5835,3 +5835,190 @@ div.title-gradient-2 {margin-top: 4px; margin-bottom: 4px;  height: 3px;backgrou
 .property-line h4 {
      font-weight: bold;
 } 
+
+.mark {
+	display: inline-block;
+	background-color: transparent;
+  }.mark .label {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding: 0px 2px 0px 2px;
+	font-weight: bold;
+  }.mark .data {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding: 0px 4px 0px 3px;
+	font-weight: bold;
+  }.mark .red {
+	background: #b16b6b;
+	color: white;
+  }.mark .brown {
+	background: #b18e6b;
+	color: white;
+  }.mark .blue {
+	background: #6b9cb1;
+	color: white;
+  }.mark .green {
+	background: #6bb18c;
+	color: white;
+  }.mark .yellow {
+	background: #d7d782;
+	color: white;
+  }.mark .grey {
+	background: #999999;
+	color: white;
+  }.mark  .black {
+	background: #000000;
+	color: white;
+  }.mark .tag {
+	background: #fcb671;
+	color: #000;
+  }.mark .positive {
+	background: none;
+	color: #4DD18A;
+  }.mark .negative {
+	background: none;
+	color: #D14D4D;
+  }.mark .value {
+	background: rgb(38, 43, 51);
+	color: #c8ced8;
+  }.mark .save {
+	background: #E0B96A;
+	color: #313131;
+  }.mark .skill {
+	background: #E0B96A;
+	color: #313131;
+  }.mark .pass {
+	background: #6bb18c;
+	color: #ffffff;
+  }.mark .fail {
+	background: #b16b6b;
+	color: #ffffff;
+  }.mark .entity {
+	background: none;
+	color: #2166D5;
+  }.mark .clean {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding: 0px 1px 0px 1px;
+  }span.entity-tag {
+	background: none;
+	color: #2166D5;
+  }pass {
+	display: inline-block;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 15px;
+	text-transform: none;
+	border-top-right-radius: 4px; 
+	border-bottom-right-radius: 4px; 
+	padding: 0px 6px 0px 0px;
+	margin: 0px 0px;
+	background-color: rgb(38, 43, 51);
+	color: #c8ced8;
+  }pass:before {
+	content: "\e955";
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+	padding: 0px 0px 0px 2px; 
+	margin-right: 4px;
+	font-weight: bold;
+	background-color: #6bb18c;
+	color: #ffffff;
+  }fail {
+	display: inline-block;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 15px;
+	text-transform: none;
+	border-top-right-radius: 4px; 
+	border-bottom-right-radius: 4px; 
+	padding: 0px 6px 0px 0px;
+	background-color: rgb(38, 43, 51);
+	color: #c8ced8;
+  }fail:before {
+	content: "\e911";
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+	padding: 0px 0px 0px 2px; 
+	margin-right: 4px;
+	font-weight: bold;
+	background-color: #6bb18c;
+	background-color: #b16b6b;
+	color: #ffffff;
+  }action {
+	display: inline-block;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 15px;
+	text-transform: none;
+	border-top-right-radius: 4px; 
+	border-bottom-right-radius: 4px; 
+	padding: 0px 6px 0px 0px;
+	margin: 0px 0px;
+	background-color: rgb(38, 43, 51);
+	color: #c8ced8;
+  }action:before {
+	content: "\e935";
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+	padding: 0px 4px 0px 6px; 
+	font-weight: bold;
+	background-color: none;
+	color: #2166D5;
+  }ba {
+	display: inline-block;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 15px;
+	text-transform: none;
+	border-top-right-radius: 4px; 
+	border-bottom-right-radius: 4px; 
+	padding: 0px 6px 0px 0px;
+	margin: 0px 0px;
+	background-color: rgb(38, 43, 51);
+	color: #c8ced8;
+  }ba:before {
+	content: "\e950";
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+	padding: 0px 4px 0px 6px; 
+	font-weight: bold;
+	background-color: none;
+	color: #2166D5;
+  }reaction {
+	display: inline-block;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 15px;
+	text-transform: none;
+	border-top-right-radius: 4px; 
+	border-bottom-right-radius: 4px; 
+	padding: 0px 6px 0px 0px;
+	margin: 0px 0px;
+	background-color: rgb(38, 43, 51);
+	color: #c8ced8;
+  }reaction:before {
+	content: "\e936";
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+	padding: 0px 4px 0px 6px; 
+	font-weight: bold;
+	background-color: none;
+	color: #2166D5;
+  }
